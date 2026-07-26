@@ -13,3 +13,7 @@ for i in range (-1,-101,-1):
 #the positive reverse order
 for i in range (20,1,-1):
     print (i);
+#print string by for loop
+for i in range(len(a)):
+    print(a[i]);
+a = "my name is divyansh mishra..wanted to be a pebetration tester"
