@@ -10,3 +10,6 @@ for i in range(1,101,1):
     
 for i in range (-1,-101,-1):
     print ("the negative numbering from -1 to -101 are:",i);
+#the positive reverse order
+for i in range (20,1,-1):
+    print (i);
