@@ -17,3 +17,10 @@ for i in range (20,1,-1):
 for i in range(len(a)):
     print(a[i]);
 a = "my name is divyansh mishra..wanted to be a pebetration tester"
+
+ #accept a no and print n times hello world 
+ 
+no =int(input("enter the number"))
+ 
+for i in range(no):
+     print("hello world")
