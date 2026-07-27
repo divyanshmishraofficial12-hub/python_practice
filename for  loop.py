@@ -24,3 +24,8 @@ no =int(input("enter the number"))
  
 for i in range(no):
      print("hello world")
+#print natural no up to n 
+no =int(input("enter the number..?"))
+
+for i in range (1,no):
+    print(i)    
