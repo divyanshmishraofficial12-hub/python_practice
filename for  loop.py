@@ -28,4 +28,10 @@ for i in range(no):
 no =int(input("enter the number..?"))
 
 for i in range (1,no):
-    print(i)    
+    print(i)  
+
+#revetse for loop print n to 1
+n= int(input("enter the no u want to reverse..?")) 
+
+for i in range(n,0,-1):
+    print(i);
