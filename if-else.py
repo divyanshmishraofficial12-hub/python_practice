@@ -16,3 +16,14 @@ elif number % 2 == 0 and number >6 and number <20:
     print("more weird")
 elif number % 2 == 0 and number > 20:
     print("more and more weird")
+
+#accept the number and print the greatest no between them:-
+no1=int(input("enter the no1..?"))
+no2=int(input("enter the no2..?"))
+ 
+if no1 > no2:
+    print(no1,"is greater")
+elif no1 < no2:
+    print(no2,"is greater")
+else:
+    print("error not found..!")
