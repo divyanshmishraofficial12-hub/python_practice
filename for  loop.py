@@ -72,4 +72,11 @@ if n % 2!= 0:
     for i in range(1,n+1,2):
         sum+=i
     print(sum)
+
+# - Factorial of a number
+n= int(input("enter the no of terms..?"))
+total =1
+for i in range(1,n+1):
+    total*= i
+print(total)
         
