@@ -64,3 +64,18 @@ if year % 4 == 0:
     print(f"{year} ,it is a leap year..!")
 else:
     print("not a leap year..!")
+
+#take a input from user and ckeck temprature in celcius
+ 
+cel=int(input("enter temprature in celcius..?"))
+
+if cel < 0:
+    print(f"{cel} ,freezing cold")
+
+elif cel > 0 or cel <10:
+    print(f"{cel}  ,very cold")    
+elif cel > 10 or cel <20:
+    print(f"{cel} ,very cold") 
+else:
+    print("not found..!")
+        
