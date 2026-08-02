@@ -39,3 +39,9 @@ for i in range(n,0,-1):
 a="nature"
 for i in range(len(a)):
     print(i)
+
+#Accept an integer and Print hello world n times
+n= int(input("enter the no of terms..?"))
+
+for i in range(1,n):
+    print(i,"hello world..!")
