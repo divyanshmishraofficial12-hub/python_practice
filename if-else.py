@@ -27,3 +27,13 @@ elif no1 < no2:
     print(no2,"is greater")
 else:
     print("error not found..!")
+
+ #accept the gender from user as char andprint some greeting message..
+g=input("enter gender in(ex:- M,F)..?")
+ 
+if g == "M" or g =="m":
+     print("hello ,good day sir..!")
+elif g == "F" or g == "f":
+    print("hello ,good day  madam..!")
+else:
+    print("gender not specific")
