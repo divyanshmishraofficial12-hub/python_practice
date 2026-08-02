@@ -45,3 +45,9 @@ n= int(input("enter the no of terms..?"))
 
 for i in range(1,n):
     print(i,"hello world..!")
+
+#Reverse for loop. Print n to 1
+n= int(input("enter the no of terms..?"))
+
+for i in range(n,1,-1):
+    print(i)
