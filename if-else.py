@@ -56,3 +56,11 @@ if age <18:
 elif age >= 18:
     print(f"{name} , is eligible to vote..!")
 
+#accept a year and check if it  a leap year or not
+
+year=int(input("enter year..?"))
+
+if year % 4 == 0:
+    print(f"{year} ,it is a leap year..!")
+else:
+    print("not a leap year..!")
