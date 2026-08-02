@@ -46,3 +46,13 @@ if no %2 ==0:
     print (f"the {no} is even..!")
 else:
     print(f"the {no} is odd..! ")
+
+#accept the name and age from user and check weather he/she is valid voter or not..?
+name=input("enter name..?")
+age=int(input("enter age in no..?"))
+
+if age <18:
+    print(f"{name} , is not eigible to vote..!")
+elif age >= 18:
+    print(f"{name} , is eligible to vote..!")
+
