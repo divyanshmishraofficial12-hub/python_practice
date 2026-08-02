@@ -35,3 +35,7 @@ n= int(input("enter the no u want to reverse..?"))
 
 for i in range(n,0,-1):
     print(i);
+#print indexin of string
+a="nature"
+for i in range(len(a)):
+    print(i)
