@@ -37,3 +37,12 @@ elif g == "F" or g == "f":
     print("hello ,good day  madam..!")
 else:
     print("gender not specific")
+
+#accept integer wheather integer is even or not..?
+
+no=int(input("enter the number..?"))
+
+if no %2 ==0:
+    print (f"the {no} is even..!")
+else:
+    print(f"the {no} is odd..! ")
