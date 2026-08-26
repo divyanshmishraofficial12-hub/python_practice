@@ -4,3 +4,9 @@ def add(x):
 
 print(add(5))
 
+#lambda function
+
+a= lambda x,y,z: x + y + z
+print(a(5,10,15))
+
+
