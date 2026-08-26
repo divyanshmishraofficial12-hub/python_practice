@@ -21,3 +21,16 @@ def sec():
     print("this is a second function..!")
 
 sec()
+
+
+def dec(fu):
+    def nu():
+        print("START from here..!")
+        fu()
+        print("THE GAME ENDS..!")
+    return nu
+@dec
+def game():
+    print("thiss is my game..!")
+
+game()
