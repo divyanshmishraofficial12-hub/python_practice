@@ -19,3 +19,11 @@ square=power(2)  #print square :it holds a:a ** 2
 cube=power(3)    #print cube   :it hols a:a ** 3
 print("the square is :",square(3))
 print("the cube is :",cube(3))
+
+
+
+str1="hello"
+
+txt=lambda string: string.upper()[::-1]
+
+print(txt(str1))
