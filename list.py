@@ -73,3 +73,15 @@ print(d)
 
 d.clear()  # clear the entire list
 print(d)
+
+rint(xx.index("my"))  # give index no
+print(xx.count("my"))  # count the accurance
+xx.reverse()  # reverse the list
+print(xx)
+
+xx.sort()  # in ascending or descending order
+print(xx)
+print(ord('a'))  # gives ACSII value 
+xx.sort(key=str.lower)
+print(xx)
+print(max(xx))
