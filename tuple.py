@@ -16,3 +16,16 @@ print(t)
 a=(1,2,3,2,3,4,5)
 
 print(min(a)+max(a)+a.count(2))
+
+# basic operation on tuple
+
+t2=(1,2,3,4,5)
+
+for i in  t2:
+    print(i)
+
+# tuple unpacking
+f,*v,r=t2
+print(f)
+print(v)
+print(r)
