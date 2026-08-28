@@ -37,3 +37,13 @@ print("this is my changed list:-",d)
 d[2:4]="banana","mango"
 
 print("changing multiple items:-",d)
+
+
+# modification of list
+print(d)
+d.append("onge") #join at the last of list
+
+print(d)
+
+d.insert(2,"flu flu")  # join at desired index position 
+print(d)
