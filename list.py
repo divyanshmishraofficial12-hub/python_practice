@@ -138,3 +138,7 @@ matrix=[[y for y in range(5)]for no in range(5)]
     for y in range(5):
         matrix[x].append(y)'''
 print(matrix)
+
+words = ["python", "java", "c", "javascript"]
+[w.upper() for w in words if len(w) > 4]
+print(words)'''
