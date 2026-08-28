@@ -22,3 +22,19 @@ print(a[-7])  # negaticv indexing
 print(a[2:5])
 print(a[-1:4:-1])
 print(a[-3:3:-1])
+
+
+#string methods
+
+#   print(dir(a)) string methods
+
+
+print(a.capitalize())
+print(a.casefold())
+print(a.lower())
+print(a.upper())
+print(a.isupper())
+print(a.swapcase())
+print(a.title())
+
+
