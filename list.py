@@ -120,3 +120,13 @@ for a in name:
     if 'a' in a:
         start_with_a.append(a)
 print("it consist of list that starting with a",start_with_a)
+
+
+# other comprehnsion
+
+dd=[no*2 for no in range(11) if no %2==0]
+print(dd)
+
+ss=["hlo","fddsgs","egge"]
+gf=[no for no in ss if 'g' in no]
+print(gf)
