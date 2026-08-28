@@ -48,6 +48,14 @@ print(a.isalpha(), "print true if string only cantain alphabet..!")
 
 print(b.isdigit(),"print true if strig csntsin only digit values..!")
 
+print(a.replace('o', '****'))  # it doesnt change the string but make a new one
+print(a)
+
+c="  gg  "
+print(c.strip(),"remove the space in string")
+print(c.lstrip())# from right side 
+print(c.rstrip())  # from left side'''
+
 print(a.islower())
 print(a.isupper())
 print(a.istitle())
