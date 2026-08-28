@@ -68,3 +68,4 @@ print(a.split(' ',4))
 
 a=['a','b','c','d']
 print("---- ".join(a))
+
