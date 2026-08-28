@@ -85,3 +85,14 @@ print(ord('a'))  # gives ACSII value
 xx.sort(key=str.lower)
 print(xx)
 print(max(xx))
+
+
+# membership operator in list
+
+gg=[21,33,4,88,66,77]
+
+
+if 333 in gg:
+    print("this is present")
+else:
+    print("not present")
