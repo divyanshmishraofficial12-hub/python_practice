@@ -69,3 +69,8 @@ print(a.split(' ',4))
 a=['a','b','c','d']
 print("---- ".join(a))
 
+#  find methodd..!
+
+d="dfhdfdfhd fddfhdf"
+
+print(d.find('h'))
