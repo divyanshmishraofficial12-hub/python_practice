@@ -24,3 +24,16 @@ li[2]="dgsg"
 print(li)  #list has changed
 
 print(li[2::2]) #with the help of index
+
+#  print(dir(list))   gives the directory of the list 
+
+d=[21,33,44,55,55]
+print("this is my list:-",d[1:3])
+
+d[1]="apple"
+
+print("this is my changed list:-",d)
+
+d[2:4]="banana","mango"
+
+print("changing multiple items:-",d)
