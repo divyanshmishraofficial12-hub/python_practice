@@ -96,3 +96,9 @@ if 333 in gg:
     print("this is present")
 else:
     print("not present")
+#nested list
+
+l3=[[22,33,44],[55,66,77],[88,99,00]]
+
+print(l3)
+print(l3[1][2])
