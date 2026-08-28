@@ -110,3 +110,13 @@ l3=[[22,33,44],[55,66,77],[88,99,00]]
 
 print(l3)
 print(l3[1][2])
+
+# list comprihension
+
+name=['ram','lakhan',"div","sfss"]
+start_with_a=[]
+
+for a in name:
+    if 'a' in a:
+        start_with_a.append(a)
+print("it consist of list that starting with a",start_with_a)
