@@ -8,3 +8,11 @@ d1={
 print(d1)
 print(len(d1))
 print(type(d1))
+
+#accesing dictionary
+
+print(d1['name'])
+print(d1.get('car'))
+print(d1.keys())
+print(d1.values())
+print(d1.items())
