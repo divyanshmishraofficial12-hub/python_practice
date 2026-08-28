@@ -60,3 +60,11 @@ print(a.islower())
 print(a.isupper())
 print(a.istitle())
 
+print(a.startswith("hello"))
+
+print(a.split(' ',4))
+
+#  join method
+
+a=['a','b','c','d']
+print("---- ".join(a))
