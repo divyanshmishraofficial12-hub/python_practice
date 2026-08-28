@@ -130,3 +130,11 @@ print(dd)
 ss=["hlo","fddsgs","egge"]
 gf=[no for no in ss if 'g' in no]
 print(gf)
+
+matrix=[[y for y in range(5)]for no in range(5)]
+
+'''for x in range(5):
+    matrix.append([])
+    for y in range(5):
+        matrix[x].append(y)'''
+print(matrix)
