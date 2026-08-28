@@ -98,6 +98,14 @@ else:
     print("not present")
 #nested list
 
+#question
+list1=[]
+for i in range (3):
+    list1. append ([])
+    for j in range (3):
+        list1 [i]. append (j)
+for i in list1:
+    print (i)
 l3=[[22,33,44],[55,66,77],[88,99,00]]
 
 print(l3)
