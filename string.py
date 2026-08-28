@@ -74,3 +74,10 @@ print("---- ".join(a))
 d="dfhdfdfhd fddfhdf"
 
 print(d.find('h'))
+
+#  camcatenation
+
+h=31
+b="this is"
+
+print(b+ ' ' + str(h)) 
