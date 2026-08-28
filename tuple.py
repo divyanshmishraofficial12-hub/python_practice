@@ -29,3 +29,8 @@ f,*v,r=t2
 print(f)
 print(v)
 print(r)
+
+# tuple join
+
+c=t2 +a
+print(c)
