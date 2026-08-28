@@ -34,3 +34,12 @@ print(r)
 
 c=t2 +a
 print(c)
+
+#questions
+
+t3=(10,5,7,8,3,4,9,2)
+t4=tuple(sorted(t3))
+print(t4)
+
+t5= (1,2,3,(4,5,6))
+print(t5[3][0])
