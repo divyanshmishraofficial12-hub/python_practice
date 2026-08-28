@@ -81,3 +81,12 @@ h=31
 b="this is"
 
 print(b+ ' ' + str(h)) 
+
+#format methods
+
+a=21
+b='university'
+c='age is {} persuing BCA from {}'# take an argument and place it where the placeholder
+print(c.format(a,b))
+c1='age is {} persuing BCA from {}'.format(a,b)
+print(c1)
