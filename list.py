@@ -47,3 +47,14 @@ print(d)
 
 d.insert(2,"flu flu")  # join at desired index position 
 print(d)
+
+# adding item to a list
+f=[88,77,66]
+
+h=d+f  # adding normaly concate
+print(h)
+print(d)
+j=["hhdh","grr"]
+d.extend(j) # use to add collection of items(list,tuple,set)
+
+print(d) 
