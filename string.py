@@ -37,4 +37,18 @@ print(a.isupper())
 print(a.swapcase())
 print(a.title())
 
+#  membership operator  
+
+a="he ll o wo rl d"
+b='12345'
+print(a)
+print(a.isalnum(),"print true if it string cantain alphabet and nummric..!")
+
+print(a.isalpha(), "print true if string only cantain alphabet..!")
+
+print(b.isdigit(),"print true if strig csntsin only digit values..!")
+
+print(a.islower())
+print(a.isupper())
+print(a.istitle())
 
