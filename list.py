@@ -58,3 +58,18 @@ j=["hhdh","grr"]
 d.extend(j) # use to add collection of items(list,tuple,set)
 
 print(d) 
+
+# removing items from the list
+
+print(d)
+d.remove(33) # removed 33 from this list
+print(d)
+
+d.pop(1) # remove item present at index no 1
+print(d)
+
+del d[:2]  # help to delete range of itemss
+print(d)
+
+d.clear()  # clear the entire list
+print(d)
