@@ -67,3 +67,23 @@ print(d)
 d.clear()
 
 print(d)
+
+# questions
+
+count={}
+
+count[(1,2,3)]=2
+
+count[(4,5,6)]=3
+
+count[(7,8,9)]=4
+
+
+count[(1,2,3)]=5
+
+print("this is an original dict",count)
+
+add=0
+for i in count:
+    add=add+count[i]
+print(len(count)+add)
