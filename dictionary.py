@@ -87,3 +87,9 @@ add=0
 for i in count:
     add=add+count[i]
 print(len(count)+add)
+
+# queestion 2
+
+a={i: i*i for i in range (6)}
+
+print(a)
