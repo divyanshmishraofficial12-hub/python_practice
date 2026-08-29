@@ -33,6 +33,13 @@ dd=dict(zip(t1,r))
 print(dd)
 print(type(dd))
 
+# merging two dict
+a={'a': 1, 'b': 2}
+
+b={'c': 3, 'd': 4}
+
+a.update(b)
+print(a)
 #  dectionary modification and updation
 
 d={
