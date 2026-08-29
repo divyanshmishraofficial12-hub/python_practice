@@ -25,3 +25,10 @@ print(type(t1))
 print(ee)
 print("only print the keys:-",ee.keys())
 print(type(ee))
+
+# converting multiple list into dictionary
+
+r=[('d',3),('f',5)]
+dd=dict(zip(t1,r))
+print(dd)
+print(type(dd))
