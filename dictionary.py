@@ -93,3 +93,18 @@ print(len(count)+add)
 a={i: i*i for i in range (6)}
 
 print(a)
+
+# question 3
+
+
+student = {
+    "name": "Divyansh",
+    "roll_no": 1240264048,
+    "course": "BCA Cybersecurity",
+    "semester": 4
+}
+
+for x,y in student.items():
+    print(x,y)
+    print(f"{x=} and {y=}")
+    
