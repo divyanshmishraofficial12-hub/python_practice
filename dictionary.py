@@ -52,3 +52,18 @@ print(d)
 
 d.update({'course':'BCA'})
 print(d)
+
+#  how to remove items from the dictionary
+
+d.pop('age')
+print(d)
+
+d.popitem()
+print(d)
+
+del d['name']
+print(d)
+
+d.clear()
+
+print(d)
