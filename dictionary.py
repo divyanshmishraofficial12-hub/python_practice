@@ -32,3 +32,23 @@ r=[('d',3),('f',5)]
 dd=dict(zip(t1,r))
 print(dd)
 print(type(dd))
+
+#  dectionary modification and updation
+
+d={
+    'name':'divyansh',
+    'age':19,
+    'car': ['ford','wagon']
+}
+
+print(d)
+d['name']="shivansh"
+
+print(d)
+d.update({'name':"divyansh"})
+print(d)
+
+# even add using update
+
+d.update({'course':'BCA'})
+print(d)
